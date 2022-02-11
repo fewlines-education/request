@@ -9,7 +9,7 @@ import fetch, {
 
 type CallbackFn = (
   error: Error | null,
-  body: string | null,
+  body: string,
   response: Response | null
 ) => void;
 

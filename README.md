@@ -2,6 +2,7 @@
 
 <!-- TOC -->
 
+- [Installation](#installation)
 - [Common Usage](#common-usage)
   - [Plain text or HTML](#plain-text-or-html)
   - [JSON](#json)
@@ -30,7 +31,33 @@
   - [Class: FetchError](#class-fetcherror)
 - [TypeScript](#typescript)
 
+## Installation
+
+With Yarn:
+
+```shell
+yarn add @fewlines-education/request
+```
+
+With NPM:
+
+```shell
+npm install @fewlines-education/request
+```
+
 ## Common Usage
+
+With TypeScript or using ESM:
+
+```typescript
+import request from "@fewlines-education/request";
+```
+
+With CommonJS:
+
+````javascript
+const request = require("@fewlines-education/request").default;
+```
 
 ### Plain text or HTML
 
@@ -40,7 +67,7 @@ import request from "@fewlines-education/request";
 request("https://github.com/", (error, body) => {
   console.log(body);
 });
-```
+````
 
 ### JSON
 

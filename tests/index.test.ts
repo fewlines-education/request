@@ -1,4 +1,4 @@
-import request from "./index";
+import request from "../src/index";
 import http from "http";
 import net from "net";
 
