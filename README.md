@@ -74,7 +74,7 @@ request("https://github.com/", (error, body) => {
 ```js
 import request from "@fewlines-education/request";
 
-reqest("https://api.github.com/users/github", (error, body) => {
+request("https://api.github.com/users/github", (error, body) => {
   const data = JSON.parse(body);
   console.log(data);
 });
